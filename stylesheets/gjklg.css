@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'cpr';
+    src: url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.eot');
+    src: url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.eot') format('embedded-opentype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.woff2') format('woff2'),
+         url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.woff') format('woff'),
+         url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.ttf') format('truetype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/r_khjfklhj546.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cpr';
+    src: url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.eot');
+    src: url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.eot') format('embedded-opentype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.woff2') format('woff2'),
+         url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.woff') format('woff'),
+         url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.ttf') format('truetype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/i_lkbhs77.svg') format('svg');
+    font-weight: italic;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'cpr';
+    src: url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.eot');
+    src: url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.eot') format('embedded-opentype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.woff2') format('woff2'),
+         url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.woff') format('woff'),
+         url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.ttf') format('truetype'),
+         url('../assets/external/gedankenflut.org/assets/fonts/b_ljkhgfljk5.svg') format('svg');
+    font-weight: bold;
+    font-style: bold;
+}
