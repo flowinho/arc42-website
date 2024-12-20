@@ -1,0 +1,113 @@
+@import "gjklg.css";
+@import "hack.css";
+
+:root {
+    --md-text-custom-font: "cpr";
+    --md-code-font: "Hack";
+    --custom-color-red: #ff1947;
+    --custom-color-purple: #df41fb;
+    --custom-color-indigo: #526cfe;
+    --custom-color-blue: #4287ff;
+    --custom-color-lime: #b0eb00;
+    --custom-color-amber: #f2a409;
+    --custom-color-brown: #795649;
+}
+
+.red {
+    color: var(--custom-color-red);
+}
+.purple {
+    color: var(--custom-color-purple);
+}
+.indigo {
+    color: var(--custom-color-indigo);
+}
+.blue {
+    color: var(--custom-color-blue);
+}
+.lime {
+    color: var(--custom-color-lime);
+}
+.amber {
+    color: var(--custom-color-amber);
+}
+.brown {
+    color: var(--custom-color-brown);
+}
+
+.md-grid {
+    max-width: 75rem;
+}
+
+ 
+.md-content p {
+    font-family: var(--md-text-custom-font);
+}
+
+.md-content li {
+    font-family: var(--md-text-custom-font);
+}
+
+.md-path .md-ellipsis {
+    font-family: var(--md-text-font);
+}
+
+.font-reset {
+    font-family: var(--md-text-font);
+}
+
+.md-ellipsis {
+    font-family: var(--md-text-custom-font);
+}
+.cards  {
+    li p {
+        font-family: var(--md-text-font);
+    }
+}
+
+.md-nav .md-ellipsis {
+    font-family: var(--md-text-font);
+}
+
+html {
+    font-size: 125%;
+}
+
+@media screen and (min-width: 100em) {
+    html {
+        font-size:125%
+    }
+}
+
+@media screen and (min-width: 125em) {
+    html {
+        font-size:125%
+    }
+}
+
+.md-typeset .admonition {
+    font-size: 0.75rem;
+}
+
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:        #294046;
+    --md-primary-fg-color--light: #294046;
+    --md-primary-fg-color--dark:  #294046;
+    --md-typeset-a-color: #52828f;
+  }
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #294046;
+    --md-primary-fg-color--light: #294046;
+    --md-primary-fg-color--dark:  #294046;
+    --md-typeset-a-color: #52828f;
+  }
+
+[data-md-color-scheme="default"] .disabled {
+    color: lightgray;
+}
+
+[data-md-color-scheme="slate"] .disabled {
+    color: rgb(63, 63, 63);
+}
